@@ -12,9 +12,9 @@ import Colors from "@/constants/Colors";
 import { Feather } from "@expo/vector-icons";
 
 export default function ExpenseBlock({
-  expensList,
+  expenseList,
 }: {
-  expensList: ExpenseType[];
+  expenseList: ExpenseType[];
 }) {
   const renderItem: ListRenderItem<Partial<ExpenseType>> = ({
     item,
@@ -32,10 +32,10 @@ export default function ExpenseBlock({
     return (
       <View
         style={[
-          styles.expensBlock,
+          styles.expenseBlock,
           {
             backgroundColor:
-              item.name === "Food"
+              item.name === "Turnover"
                 ? Colors.blue
                 : item.name === "Saving"
                 ? Colors.white
@@ -47,7 +47,7 @@ export default function ExpenseBlock({
           style={{
             fontSize: 14,
             color:
-              item.name === "Food"
+              item.name === "Turnover"
                 ? Colors.black
                 : item.name === "Saving"
                 ? Colors.black
@@ -59,7 +59,7 @@ export default function ExpenseBlock({
         <Text
           style={{
             color:
-              item.name === "Food"
+              item.name === "Turnover"
                 ? Colors.black
                 : item.name === "Saving"
                 ? Colors.black
@@ -81,7 +81,7 @@ export default function ExpenseBlock({
           <Text
             style={{
               color:
-                item.name === "Food"
+                item.name === "Turnover"
                   ? Colors.black
                   : item.name === "Saving"
                   ? Colors.black
@@ -101,7 +101,7 @@ export default function ExpenseBlock({
   return (
     <View style={{ paddingVertical: 20 }}>
       <FlatList
-        data={staticItem.concat(expensList)}
+        data={staticItem.concat(expenseList)}
         renderItem={renderItem}
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -111,7 +111,7 @@ export default function ExpenseBlock({
 }
 
 const styles = StyleSheet.create({
-  expensBlock: {
+  expenseBlock: {
     backgroundColor: Colors.blue,
     width: 100,
     padding: 15,

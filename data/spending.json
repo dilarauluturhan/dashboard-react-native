@@ -1,38 +1,26 @@
 [
   {
     "id": "1",
-    "name": "AirBnB Rent",
-    "amount": "529.99",
-    "date": "2024-05-01"
+    "name": "Trendyol",
+    "amount": "355.45",
+    "date": "2024-02-02"
   },
   {
     "id": "2",
-    "name": "Netflix",
-    "amount": "10.99",
-    "date": "2024-05-02"
+    "name": "Hepsiburada",
+    "amount": "755,23",
+    "date": "2024-02-18"
   },
   {
     "id": "3",
-    "name": "Spotify",
-    "amount": "5.99",
-    "date": "2024-05-02"
+    "name": "Amazon",
+    "amount": "234.69",
+    "date": "2024-02-06"
   },
   {
     "id": "4",
-    "name": "Amazon",
-    "amount": "234.69",
-    "date": "2024-05-06"
-  },
-  {
-    "id": "5",
-    "name": "Figma",
-    "amount": "8.99",
-    "date": "2024-05-09"
-  },
-  {
-    "id": "6",
     "name": "Online Shopping",
     "amount": "136.99",
-    "date": "2024-05-012"
+    "date": "2024-02-12"
   }
 ]

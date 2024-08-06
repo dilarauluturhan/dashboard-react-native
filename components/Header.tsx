@@ -25,15 +25,13 @@ export default function Header() {
             <Text
               style={{ color: Colors.tintColor, fontSize: 16, fontWeight: 500 }}
             >
-              Your Budget
+              Your Admin Panel
             </Text>
           </View>
         </View>
 
         <TouchableOpacity onPress={() => {}} style={styles.btnWrapper}>
-          <Text style={{ color: Colors.white, fontSize: 12 }}>
-            My Transactions
-          </Text>
+          <Text style={{ color: Colors.white, fontSize: 12 }}>My Profile</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

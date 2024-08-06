@@ -1,7 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
-import { AntDesign, FontAwesome, SimpleLineIcons } from "@expo/vector-icons";
+import {
+  AntDesign,
+  FontAwesome,
+  SimpleLineIcons,
+  Ionicons,
+} from "@expo/vector-icons";
 import Colors from "@/constants/Colors";
 import { StatusBar } from "expo-status-bar";
 
@@ -43,7 +48,7 @@ export default function Layout() {
                   backgroundColor: focused ? Colors.tintColor : Colors.grey,
                 }}
               >
-                <SimpleLineIcons name="pie-chart" size={18} color={color} />
+                <SimpleLineIcons name="pie-chart" size={19} color={color} />
               </View>
             ),
           }}
@@ -59,13 +64,13 @@ export default function Layout() {
                   backgroundColor: focused ? Colors.tintColor : Colors.grey,
                 }}
               >
-                <FontAwesome name="user-o" size={18} color={color} />
+                <FontAwesome name="user-o" size={19} color={color} />
               </View>
             ),
           }}
         />
         <Tabs.Screen
-          name="transactions"
+          name="settings"
           options={{
             tabBarIcon: ({ color, size, focused }) => (
               <View
@@ -75,7 +80,7 @@ export default function Layout() {
                   backgroundColor: focused ? Colors.tintColor : Colors.grey,
                 }}
               >
-                <AntDesign name="swap" size={18} color={color} />
+                <Ionicons name="settings-outline" size={24} color={color} />
               </View>
             ),
           }}

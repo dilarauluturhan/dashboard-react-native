@@ -1,13 +1,13 @@
 [
   {
     "id": "1",
-    "name": "Housing",
+    "name": "Sale",
     "amount": "955.75",
     "percentage": "61"
   },
   {
     "id": "2",
-    "name": "Food",
+    "name": "Turnover",
     "amount": "300.55",
     "percentage": "19"
   },
@@ -19,7 +19,7 @@
   },
   {
     "id": "4",
-    "name": "Miscleneous",
+    "name": "Profit",
     "amount": "70.95",
     "percentage": "5"
   }

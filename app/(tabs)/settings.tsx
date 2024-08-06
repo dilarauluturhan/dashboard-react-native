@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <Stack.Screen options={{ headerShown: false }} />
       <View style={styles.container}>
-        <Text style={styles.text}>Transaction</Text>
+        <Text style={styles.text}>Settings</Text>
       </View>
     </>
   );

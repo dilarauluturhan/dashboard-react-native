@@ -5,7 +5,11 @@ import { Stack } from "expo-router";
 import Header from "@/components/Header";
 import { PieChart } from "react-native-gifted-charts";
 import ExpenseBlock from "@/components/ExpenseBlock";
-import ExpensList from "@/data/expenses.json";
+import ExpenseList from "@/data/expenses.json";
+import IncomeBlock from "@/components/IncomeBlock";
+import IncomeList from "@/data/income.json";
+import SpendingBlock from "@/components/SpendingBlock";
+import SpendingList from "@/data/spending.json";
 
 export default function Page() {
   const pieData = [
@@ -35,7 +39,7 @@ export default function Page() {
               <Text
                 style={{ color: Colors.white, fontSize: 14, fontWeight: 500 }}
               >
-                My Expenses
+                My <Text style={{fontWeight:700}}>Earning</Text>
               </Text>
               <Text
                 style={{ color: Colors.white, fontSize: 36, fontWeight: 700 }}
@@ -75,7 +79,9 @@ export default function Page() {
             </View>
           </View>
 
-          <ExpenseBlock expensList={ExpensList} />
+          <ExpenseBlock expenseList={ExpenseList} />
+          <IncomeBlock incomeList={IncomeList} />
+          <SpendingBlock spendingList={SpendingList}/>
         </ScrollView>
       </View>
     </>
