@@ -15,7 +15,7 @@ export default function Header() {
       <View style={styles.wrapper}>
         <View style={styles.userInfoWrapper}>
           <Image
-            source={{ uri: "https://i.pravatar.cc/250" }}
+            source={{ uri: "https://i.pravatar.cc/250?img=10" }}
             style={styles.userImg}
           />
           <View style={{ marginLeft: 10 }}>
