@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+<div align="center">
+  <h1 align="center">Admin Dashboard</h1>
+</div>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![](https://github.com/user-attachments/assets/e21b48a1-7d90-4f53-93a5-3d044118a88d)
 
-## Get started
+## Features
+It is an admin panel developed with React Native. The user can track their sales, earnings and expenses through this panel. You can go to your profile from the Profile tab. Can set up account settings from the Settings tab.
 
-1. Install dependencies
+## Built With
+- **@expo/vector-icons**
+- **@react-navigation/native**
+- **expo-router**
+ - **expo-splash-screen**
+- **expo-status-bar**
+- **gifted-charts-core**
+- **lucide-react-native**
+- **react-native-gesture-handler**
+- **react-native-gifted-charts**
+- **react-native-reanimated**
+- **react-native-safe-area-context**
+- **react-native-screens**
+- **react-native-svg**
 
-   ```bash
-   npm install
-   ```
+## Getting Started
+To get the project up and running on your local machine, follow these steps:
 
-2. Start the app
+Clone the repository:
+````
+git clone https://github.com/dilarauluturhan/dashboard-react-native.git
+````
+Go to the project directory:
+````
+cd dashboard-react-native
+````
+Install the required dependencies:
+````
+npm install
+````
+Start the application:
+````
+npx expo start
+````
+Go to `http://localhost:8081` in your Expo app.
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contact With
+Dilara Uluturhan - [LinkedIn](https://www.linkedin.com/in/dilarauluturhan/) - dilarauluturhan@outlook.com
